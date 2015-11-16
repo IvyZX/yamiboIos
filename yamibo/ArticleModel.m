@@ -22,7 +22,9 @@
                                                        @"lastposter": @"lastPoster",
                                                        @"replies": @"replyNum",
                                                        @"views": @"viewNum",
+                                                       @"typeid": @"typeId",
                                                        @"digest": @"isDigest",
+                                                       @"attachment": @"attachmentNum",
                                                        @"closed": @"isClosed"
                                                        }];
 }
@@ -35,7 +37,7 @@
                                                        @"Variables.forum_threadlist": @"articleList",
                                                        @"Variables.forum":@"forum",
                                                        @"Variables.sublist":@"subforumList",
-                                                       @"Variables.threadtypes":@"articleTypes",
+                                                       @"Variables.threadtypes.types":@"articleTypes",
                                                        @"Variables.tpp":@"perPage"
                                                        }];
 }

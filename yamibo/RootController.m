@@ -13,7 +13,11 @@
 #import "MessageController.h"
 #import "NeighborController.h"
 #import "LoginController.h"
+<<<<<<< HEAD
 #import "ConfigController.h"
+=======
+#import "SettingController.h"
+>>>>>>> yamiboapp/master
 #import "ProfileManager.h"
 #import "CommunicationrManager.h"
 @interface RootController () {
@@ -87,7 +91,11 @@
             self.openDrawerGestureModeMask = MMOpenDrawerGestureModePanningNavigationBar;
             break;
         case CenterControllerConfig:
+<<<<<<< HEAD
             self.centerViewController = [[UINavigationController alloc] initWithRootViewController:[[ConfigController alloc] init]];
+=======
+            self.centerViewController = [[UINavigationController alloc] initWithRootViewController:[[SettingController alloc] init]];
+>>>>>>> yamiboapp/master
             self.openDrawerGestureModeMask = MMOpenDrawerGestureModePanningNavigationBar;
             break;
         default:
